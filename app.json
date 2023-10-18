@@ -1,0 +1,26 @@
+{
+  "name": "aps-bidleveling-inspection-by-takeoff",
+  "description": "inspect model quantities of bid leveling by ACC takeoff ",
+  "repository": "https://github.com/autodesk-platform-services/aps-bidleveling-inspection-by-takeoff",
+  "logo": "",
+  "keywords": [
+      "autodesk",
+      "aps",
+      "acc",
+      "buildingconnected"
+  ],
+  "env": {
+      "APS_CLIENT_ID": {
+          "description": "APS Client ID"
+      },
+      "APS_CLIENT_SECRET": {
+          "description": "APS Client Secret"
+      },
+      "APS_CALLBACK_URL": {
+        "description": "Callback URL of your APS app, required for 3-legged OAuth",
+        "value": "https://<<YOUR HEROKU APP NAME HERE>>.herokuapp.com/api/aps/callback/oauth"
+     }
+  },
+  "website": "https://developer.autodesk.com/",
+  "success_url": "/"
+}

@@ -1,0 +1,155 @@
+﻿html,
+body {
+  min-height: 100%;
+  height: 100%;
+}
+
+.fill {
+  height: calc(100vh - 100px);
+}
+
+
+.withBoard { 
+   border: 1px solid silver;
+  border-radius: 1px;
+  height: calc(15vh);
+  overflow: auto;
+
+}
+
+.withBoard20 {
+  height: calc(12vh);
+  overflow: auto;
+  margin-left: 20px; 
+}
+
+.withBoard30 {
+  height: calc(30vh);
+  overflow: auto;
+  margin-left: 20px; 
+}
+
+.withBoard100 {
+  margin-top: calc(5vh);
+  height: calc(100vh);
+  overflow: auto;
+
+}
+
+.bidPackages { 
+  margin-top: calc(5vh);
+  border: 1px solid silver;
+  border-radius: 1px;
+  height: calc(45vh);
+  overflow: auto; 
+}
+
+.takeOff { 
+  margin-top: calc(5vh);
+
+  border: 1px solid silver;
+  border-radius: 1px;
+  height: calc(45vh);
+  overflow: auto; 
+}
+
+
+.bidLeveling { 
+  margin-top: calc(5vh);
+  height: calc(45vh);
+  border-bottom: 1px;
+  overflow: auto; 
+}
+
+.modelView { 
+  border: 1px solid silver;
+  
+}
+ 
+.adsk-viewing-viewer{
+  height:50%
+}
+
+.bidPackOverview { 
+  border: 1px solid silver;
+  border-radius: 1px;
+  height: calc(50vh);
+  overflow: auto; 
+}
+
+.takeOffInventory { 
+  border: 1px solid silver;
+  border-radius: 1px;
+  height: calc(50vh);
+  overflow: auto; 
+}
+ 
+
+
+li.borderless {
+  border-top: 0 none;
+  border-bottom: 0 none;
+  border-left: 0 none;
+  border-right: 0 none;
+}
+
+.list-group-item {
+  padding: 5px 5px;
+}
+ 
+.selectedRow{
+  background-color: aquamarine !important;
+}
+
+.circle-undecided {
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  padding: 10px;
+  background: #fff;
+  border: 5px solid #959292;
+  color: #101010;
+  text-align: center;
+  font: 32px Arial, sans-serif;
+}
+
+.circle-nobidding {
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  padding: 10px;
+  background: #fff;
+  border: 5px solid #a60d0d;
+  color: #101010;
+  text-align: center;
+  font: 32px Arial, sans-serif;
+}
+
+.circle-bidding {
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  padding: 10px;
+  background: #fff;
+  border: 5px solid #1da65f;
+  color: #101010;
+  text-align: center;
+  font: 32px Arial, sans-serif;
+}
+
+.circle-viewed {
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  padding: 10px;
+  background: #fff;
+  border: 5px solid #261da6;
+  color: #101010;
+  text-align: center;
+  font: 32px Arial, sans-serif;
+}
+
+.clsInProgress{
+  width: 50%;
+  height: 50%;
+}
