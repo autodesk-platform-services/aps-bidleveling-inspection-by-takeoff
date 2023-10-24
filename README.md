@@ -107,6 +107,7 @@ To deploy this application to Heroku, the **Callback URL** for Forge must use yo
 ## Known Tips
 1. Sheets & Models for ACC TakeOff is not ACC>>Files, while BuildingConnected project associates with ACC>>Files now. So this sample has to map BuildingConnected files to ACC>>Takeoff>>Sheets & Models
 2. The mapping of bid package and takeoff package is by their name. ensure to make them consistent in order to work with this sample
+3. GET:Projects of Building Connected API has not exposed the filter to get projects created by the logged user. This sample gets all projects firstly and filter by user id after getting the projects list. So it may take time to dump all projects. 
 
 ## Limitations
 1. This sample does not implement complex scope-specific-form such as nested sections.
