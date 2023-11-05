@@ -27,7 +27,7 @@ This sample demonstrates the use case: The members and bidders of Building Conne
 <img src="./help/main.png" width="800"> 
 
 # Demonstration
-[![https://youtu.be/W9rGN-2XnRM](http://img.youtube.com/vi/W9rGN-2XnRM/0.jpg)](https://youtu.be/W9rGN-2XnRM "APS Filter Elements by Index API of BIM360/ACC")
+[![https://youtu.be/W9rGN-2XnRM](http://img.youtube.com/vi/W9rGN-2XnRM/0.jpg)](https://youtu.be/W9rGN-2XnRM "Inspect quantities of bidleveling by takeoff")
 
 # Setup
 
@@ -110,6 +110,8 @@ To deploy this application to Heroku, the **Callback URL** for Forge must use yo
 
 ## Limitations
 1. This sample does not implement complex scope-specific-form such as nested sections.
+2. This sample does not implement all unit types.
+
 
 # Further Reading
 
